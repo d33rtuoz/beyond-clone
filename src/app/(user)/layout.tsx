@@ -6,7 +6,7 @@ export default function DockLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div className='grid grid-rows-[1fr_auto] h-screen'>
+    <div className='grid grid-rows-[1fr_auto] h-dvh'>
       <main className='p-4 overflow-y-scroll'>{children}</main>
       <Dock />
     </div>
