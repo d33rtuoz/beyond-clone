@@ -3,16 +3,16 @@ import { Library, NotebookText, Settings, User, Users } from 'lucide-react';
 import DockItem from './dock-items';
 
 const ITEMS = [
-  // {
-  //   key: 1,
-  //   icon: <Library />,
-  //   href: PAGES.HOME,
-  // },
-  // {
-  //   key: 2,
-  //   icon: <NotebookText />,
-  //   href: PAGES.RULES,
-  // },
+  {
+    key: 1,
+    icon: <Library />,
+    href: PAGES.SOURCES,
+  },
+  {
+    key: 2,
+    icon: <NotebookText />,
+    href: PAGES.RULES,
+  },
   // {
   //   icon: <Users />,
   //   href: PAGES.,
