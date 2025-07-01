@@ -8,12 +8,12 @@ import { getSources } from '@/server/sources.actions';
 // }) {
 export default async function SourcesList() {
   // const sources = await getSources((await searchParams).search);
-  const sources = await getSources();
+  // const sources = await getSources();
 
   return (
     <>
       <ul className='flex flex-col gap-4'>
-        {sources &&
+        {/* {sources &&
           sources.map((item) => (
             <li
               key={item.id}
@@ -22,7 +22,7 @@ export default async function SourcesList() {
               <H2>{item.name}</H2>
               <P>by {item.author}</P>
             </li>
-          ))}
+          ))} */}
       </ul>
     </>
   );
